@@ -258,9 +258,8 @@ Open source educational project. Use freely for learning and non-commercial purp
 - **OpenSky Network**: Free ADS-B data
 - **The Space Devs**: Launch Library API
 - **Qt Project**: GUI framework
-- **Physics Community**: For inspiring real-world applications!
 
 ---
 
-**Built with ❤️ and Physics** - Demonstrating that physics isn't just theory! 🎓✈️🚀
+
 
