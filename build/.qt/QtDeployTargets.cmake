@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_AircraftRocketTracker_FILE /home/zeshan/rocket/build/AircraftRocketTracker)
+set(__QT_DEPLOY_TARGET_AircraftRocketTracker_TYPE EXECUTABLE)

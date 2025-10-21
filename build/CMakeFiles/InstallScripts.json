@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/zeshan/rocket/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

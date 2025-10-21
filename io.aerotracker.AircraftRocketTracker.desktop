@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Aircraft Rocket Tracker
+GenericName=Aerospace Tracker
+Comment=Track aircraft and rockets with GPS navigation
+Exec=/home/zeshan/rocket/build/AircraftRocketTracker
+Icon=applications-science
+Terminal=false
+Categories=Science;Education;Geography;
+Keywords=gps;aircraft;rocket;tracking;navigation;
+StartupNotify=true
+
+

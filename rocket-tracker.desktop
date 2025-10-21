@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Aircraft Rocket Tracker
+Comment=Track aircraft and rockets with GPS
+Exec=/home/zeshan/rocket/build_direct/AircraftRocketTracker
+Icon=applications-games
+Terminal=false
+Categories=Application;Utility;
+
+
