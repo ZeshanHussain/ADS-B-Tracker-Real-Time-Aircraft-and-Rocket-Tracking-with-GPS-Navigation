@@ -18,13 +18,7 @@ A real-time C++ GUI application for tracking aircraft via ADS-B and monitoring r
 - **Proximity alerts** when aircraft enter your defined range
 - Visual heading indicators and altitude display
 
-### 🚀 Rocket Launch Tracking
-- **Upcoming launches** from around the world
-- Uses **Launch Library 2 API** (real data, free!)
-- **Live countdowns** (T-minus format)
-- Launch site locations (Cape Canaveral, Vandenberg, Baikonur, etc.)
-- Distance to launch sites from your location
-- **Launch alerts** for nearby launches
+
 
 ### 📍 GPS & Physics Features
 - Set your own GPS coordinates
@@ -94,7 +88,7 @@ make -j$(nproc)
 ./AircraftRocketTracker
 ```
 
-## 🎮 Usage
+##  Usage
 
 ### Initial Setup:
 1. **Set Your Location**: Enter your GPS coordinates (latitude, longitude)
@@ -171,7 +165,7 @@ dump1090 --net --interactive
 - **Data**: Upcoming launches from all providers (SpaceX, NASA, ULA, etc.)
 - **Update rate**: Real-time countdown
 
-## 🔔 Proximity Alerts
+##  Proximity Alerts
 
 The app will show popup notifications when:
 1. **Aircraft enters your alert range** (default 10 km)
@@ -213,51 +207,6 @@ d = √(d_horizontal² + d_vertical²)
 - **Custom Physics Engine**: All distance/bearing calculations
 - **Real-time Updates**: Separate threads for aircraft/rocket data
 
-## 🎓 Educational Value
-
-Perfect for learning:
-- **Applied Physics**: Real-world kinematics and coordinate systems
-- **C++ Programming**: Modern C++17, Qt framework
-- **Network Programming**: REST APIs, JSON parsing
-- **GUI Development**: Event-driven programming
-- **Aviation/Space**: ADS-B protocol, orbital mechanics
-
-## 🚀 Future Enhancements
-
-Potential features to add:
-- [ ] Flight path prediction
-- [ ] Historical flight tracking
-- [ ] Satellite tracking (ISS, Starlink)
-- [ ] Weather data integration
-- [ ] Sound alerts for proximity
-- [ ] Export flight data to CSV
-- [ ] 3D visualization
-- [ ] Multiple user locations (team tracking)
-
-## 📝 Known Limitations
-
-- **OpenSky Network**: Rate-limited to ~100 requests/day on free tier
-- **GPS Location**: Manual entry (could add automatic GPS detection)
-- **Map Projection**: Simple equirectangular (good for local areas)
-- **No terrain data**: Assumes flat Earth locally
-
-## 🤝 Contributing
-
-This is an educational project. Feel free to:
-- Add new features
-- Improve physics calculations
-- Add more data sources
-- Enhance visualizations
-
-## 📄 License
-
-Open source educational project. Use freely for learning and non-commercial purposes.
-
-## 🙏 Credits
-
-- **OpenSky Network**: Free ADS-B data
-- **The Space Devs**: Launch Library API
-- **Qt Project**: GUI framework
 
 ---
 
